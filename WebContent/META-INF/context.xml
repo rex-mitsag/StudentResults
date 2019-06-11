@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource name="jdbc/srs"
+        	auth="Container"
+        	type="javax.sql.DataSource"
+        	maxActive="100"
+        	maxIdle="30"
+        	maxWait="-1"
+        	username="root"
+       	password="12345678"
+     	driverClassName="com.mysql.cj.jdbc.Driver"
+      	url="jdbc:mysql://localhost/srs">
+        </Resource>
+        </Context>
